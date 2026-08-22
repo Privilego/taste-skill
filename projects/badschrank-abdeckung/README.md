@@ -29,8 +29,9 @@ kostet ~25 g Filament und liefert die exakten Maße für den finalen Druck.
 * **Zwei Querrippen** gegen Durchbiegen.
 * Hinten (Wandseite) endet die Platte bündig mit der Bodenkante, dort gibt
   es keinen Auflagerand — der Ausschnitt ist ja zur Rückseite offen.
-* Kein Loch für das Rohr: Das Chromrohr endet laut Foto deutlich **über**
-  der Bodenoberfläche, die 3 mm dicke Platte kommt ihm nicht in die Quere.
+* Kein Loch für das Rohr: Das Chromrohr endet ca. **30 mm über** der
+  Bodenoberfläche (bestätigt), die 3 mm dicke Platte kommt ihm also nicht
+  in die Quere — auch der 12 mm breite Auflagerand nicht.
 
 ## Dateien
 
@@ -95,7 +96,9 @@ Materialbedarf finale Abdeckung: ca. 55–65 g, Druckzeit ca. 3 h.
 
 ## Noch offen
 
-* Höhe des Chromrohrs über der Bodenoberfläche (nur zur Sicherheit).
-* Falls das Rohr doch einmal durch den Boden geführt werden soll, kann in
-  `generate.py` eine hintere Öffnung ergänzt werden — momentan ist die
-  Fläche komplett geschlossen.
+Nur noch die drei Werte aus dem Testdruck (Breite, Tiefe, Sitz der
+Profilprobe) — die Rohrhöhe ist mit ~30 mm geklärt.
+
+Falls das Rohr doch einmal durch den Boden geführt werden soll, kann in
+`generate.py` eine hintere Öffnung ergänzt werden — momentan ist die
+Fläche komplett geschlossen.
