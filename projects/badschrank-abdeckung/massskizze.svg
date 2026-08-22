@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="740"
+     viewBox="0 0 560 370">
+<style>
+  text { font-family: "DejaVu Sans", Arial, Helvetica, sans-serif; fill: #111; }
+  .t  { font-size: 6px; }
+  .h  { font-size: 9.5px; font-weight: 700; }
+  .s  { font-size: 7.5px; font-weight: 700; }
+  .dt { font-size: 5.5px; fill: #b00; text-anchor: middle; }
+  .board { fill: #e9e9e9; stroke: #333; stroke-width: 0.7; }
+  .notch { fill: #fff; stroke: #111; stroke-width: 1.2; }
+  .cover { fill: none; stroke: #0a63c9; stroke-width: 1.1; stroke-dasharray: 5 2.5; }
+  .skirt { fill: none; stroke: #999; stroke-width: 0.6; stroke-dasharray: 2 2; }
+  .cov { fill: #cde1fa; stroke: #0a63c9; stroke-width: 0.8; }
+  .dim { stroke: #b00; stroke-width: 0.4; fill: none; }
+  .cl  { stroke: #b00; stroke-width: 0.3; stroke-dasharray: 7 2 1.5 2; }
+  .ld  { stroke: #555; stroke-width: 0.35; fill: none; }
+</style>
+
+<text class="h" x="20" y="20">Abdeckung fuer die Siphon-Aussparung im Badschrank</text>
+<text class="t" x="20" y="31">alle Masse in mm - schwarz: Aussparung im Boden - blau gestrichelt: Umriss der Abdeckung - grau: Fuehrungsschuerze auf der Unterseite</text>
+
+<text class="s" x="20" y="52">Draufsicht 1:2</text>
+<rect class="board" x="95.0" y="52.0" width="245" height="160"/>
+<path class="notch" d="M 95.0 94.5 L 275.5 94.5 A 37.5 37.5 0 0 1 275.5 169.5 L 95.0 169.5 Z"/>
+<path class="cover" d="M 95.0 82.5 L 275.5 82.5 A 49.5 49.5 0 0 1 275.5 181.5 L 95.0 181.5"/>
+<path class="skirt" d="M 95.0 94.9 L 272.9 94.9 A 37.1 37.1 0 0 1 272.9 169.1 L 95.0 169.1"/>
+<path class="cl" d="M 55.0 132.0 L 347.0 132.0"/>
+
+<path class="ld" d="M 95.0 46.0 L 95.0 52.0"/>
+<text class="t" x="97.0" y="44.0">Hinterkante Einlegeboden (Wandseite)</text>
+<text class="t" x="215.0" y="46.0">Einlegeboden</text>
+<text class="t" x="339.0" y="129.0">Deckplatte</text>
+<text class="t" x="339.0" y="137.0">99 mm breit</text>
+
+<path class="dim" d="M 81.0 94.5 L 81.0 169.5"/><path class="dim" d="M 78.0 94.5 L 84.0 94.5"/><path class="dim" d="M 78.0 169.5 L 84.0 169.5"/><text class="dt" x="77.0" y="134.0" text-anchor="end">W = 75.0</text>
+<path class="dim" d="M 95.0 228.0 L 313.0 228.0"/><path class="dim" d="M 95.0 225.0 L 95.0 231.0"/><path class="dim" d="M 313.0 225.0 L 313.0 231.0"/><text class="dt" x="204.0" y="225.5">T = 218.0</text>
+<path class="dim" d="M 313.0 202.0 L 325.0 202.0"/><path class="dim" d="M 313.0 199.0 L 313.0 205.0"/><path class="dim" d="M 325.0 199.0 L 325.0 205.0"/><text class="dt" x="319.0" y="199.5">12</text>
+<path class="dim" d="M 95.0 196.0 L 310.0 196.0"/><path class="dim" d="M 95.0 193.0 L 95.0 199.0"/><path class="dim" d="M 310.0 193.0 L 310.0 199.0"/><text class="dt" x="202.5" y="193.5">Schuerze 215.0</text>
+
+<text class="s" x="20" y="241.0">Schnitt A-A 2:1</text>
+<path class="board" d="M 158.0 275.0 L 210.0 275.0 L 210.0 307.0 L 158.0 307.0 Z"/><path class="board" d="M 360.0 275.0 L 412.0 275.0 L 412.0 307.0 L 360.0 307.0 Z"/><path class="cov" d="M 186.0 275.0 L 384.0 275.0 L 384.0 271.4 L 381.6 269.0 L 188.4 269.0 L 186.0 271.4 Z"/><path class="cov" d="M 210.8 275.0 L 215.8 275.0 L 215.8 287.0 L 210.8 287.0 Z"/><path class="cov" d="M 354.2 275.0 L 359.2 275.0 L 359.2 287.0 L 354.2 287.0 Z"/>
+<path class="ld" d="M 152.0 289.0 L 178.0 289.0"/>
+<text class="t" x="150.0" y="290.0" text-anchor="end">Einlegeboden 16 mm</text>
+<path class="ld" d="M 180.0 267.0 L 190.0 271.0"/>
+<text class="t" x="178.0" y="268.0" text-anchor="end">Deckplatte 3.0 mm, Fase 1.2 mm</text>
+<path class="ld" d="M 365.2 293.0 L 357.2 287.0"/>
+<text class="t" x="367.2" y="295.0">Schuerze 6 x 2.5 mm, Spiel 0.4 je Seite</text>
+<text class="t" x="366.0" y="261.0">Auflagerand 12 mm liegt auf dem Boden auf</text>
+<text class="t" x="20" y="327.0">Die Schuerze taucht nur 6 mm ein - die Bodenstaerke ist deshalb unkritisch, solange der Boden dicker als 6 mm ist.</text>
+</svg>
