@@ -258,7 +258,7 @@ def massing():
     for sx in (-1, 1):
         for yy in (65.54, 87.19):
             parts.append(pinnacle(sx * 41.6, yy, 3.0, 0, 60, 74))
-        parts.append(pinnacle(sx * 42.4, Y_CROSS, 1.6, 55, 63, 69))
+        parts.append(pinnacle(sx * 42.2, Y_CROSS, 1.6, 55, 63, 69))
     # Vierungsturm
     parts.append(oct_prism(0, Y_CROSS, 4.3, 45, 72))
     parts.append(oct_prism(0, Y_CROSS, 4.3, 72, 109, a_top=0.15))
@@ -400,7 +400,7 @@ def build(args):
 
     # ---- Längswände (u = y) ----
     def spine(x, y0, y1, rows, z_min=None, fins=None):
-        fy = [f for f in (fins or fins_y) if y0 - 1e-6 <= f <= y1 + 1e-6]
+        fy = [f for f in (fins or fins_y) if y0 - 1e-3 <= f <= y1 + 1e-3]
         prof = section(M, (x, 0), 180) ^ rect(y0 - t / 2, y1 + t / 2, -10 if z_min is None else z_min, 1e3)
         if z_min is not None:
             # Unterkante als Spitzbögen zwischen den Lamellen -> kein Überhang
@@ -418,12 +418,12 @@ def build(args):
         zb += 6.8
     for s in (-1, 1):
         spine(s * 7.4, 1.3, Y_APSE, nave_rows)
-        spine(s * 23.0, 21.7, 60.06, [(3.0, 18.5, False)])
+        spine(s * 23.0, y_tower[-1], y_nave[6], [(3.0, 18.5, False)])
         spine(s * 23.0, y_choir[0], Y_APSE, [(3.0, 18.5, False)])
-        spine(s * XT, 1.3, 21.7, tower_rows)
-        spine(s * 42.4, 65.54, 87.19, [(0, 14.0, True), (19.0, 42.0, False), (46.5, 56.0, False)])
+        spine(s * XT, y_tower[0], y_tower[-1], tower_rows)
+        spine(s * 42.4, y_nave[7], y_choir[1], [(0, 14.0, True), (19.0, 42.0, False), (46.5, 56.0, False)])
     cross_rows = [(62.5, 70.0, False)] + [(zb, zb + 4.0, False) for zb in np.arange(73.0, 95.0, 5.4)]
-    spine(0.0, 71.02, 81.84, cross_rows, z_min=44.6)
+    spine(0.0, y_nave[8], y_choir[0], cross_rows, z_min=44.6)
 
     # ---- Polygonale Außenwand des Chorhaupts ----
     R = 23.0
