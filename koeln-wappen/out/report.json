@@ -1,0 +1,260 @@
+{
+  "parts": {
+    "kachel_oben_links": {
+      "size_mm": [
+        214.0,
+        244.0,
+        32.16
+      ],
+      "black_watertight": true,
+      "white_watertight": true,
+      "black_zmax": 18.2,
+      "white_zmin": 18.2,
+      "volume_cm3": 884.4
+    },
+    "kachel_oben_rechts": {
+      "size_mm": [
+        242.0,
+        244.0,
+        32.16
+      ],
+      "black_watertight": true,
+      "white_watertight": true,
+      "black_zmax": 18.2,
+      "white_zmin": 18.2,
+      "volume_cm3": 978.6
+    },
+    "kachel_unten_links": {
+      "size_mm": [
+        214.0,
+        243.9,
+        20.6
+      ],
+      "black_watertight": true,
+      "white_watertight": true,
+      "black_zmax": 18.2,
+      "white_zmin": 18.2,
+      "volume_cm3": 766.8
+    },
+    "kachel_unten_rechts": {
+      "size_mm": [
+        214.0,
+        243.9,
+        20.6
+      ],
+      "black_watertight": true,
+      "white_watertight": true,
+      "black_zmax": 18.2,
+      "white_zmin": 18.2,
+      "volume_cm3": 766.8
+    },
+    "krone_mitte": {
+      "size_mm": [
+        105.2,
+        76.0,
+        32.16
+      ],
+      "black_watertight": true,
+      "white_watertight": true,
+      "black_zmax": 18.2,
+      "white_zmin": 18.2,
+      "volume_cm3": 85.7
+    },
+    "schluessel_1": {
+      "size_mm": [
+        36.0,
+        22.0,
+        4.0
+      ],
+      "black_watertight": true,
+      "white_watertight": null,
+      "black_zmax": 4.0,
+      "white_zmin": null,
+      "volume_cm3": 2.1
+    },
+    "schluessel_2": {
+      "size_mm": [
+        36.0,
+        22.0,
+        4.0
+      ],
+      "black_watertight": true,
+      "white_watertight": null,
+      "black_zmax": 4.0,
+      "white_zmin": null,
+      "volume_cm3": 2.1
+    },
+    "schluessel_3": {
+      "size_mm": [
+        36.0,
+        22.0,
+        4.0
+      ],
+      "black_watertight": true,
+      "white_watertight": null,
+      "black_zmax": 4.0,
+      "white_zmin": null,
+      "volume_cm3": 2.1
+    },
+    "schluessel_4": {
+      "size_mm": [
+        36.0,
+        22.0,
+        4.0
+      ],
+      "black_watertight": true,
+      "white_watertight": null,
+      "black_zmax": 4.0,
+      "white_zmin": null,
+      "volume_cm3": 2.1
+    },
+    "schluessel_5": {
+      "size_mm": [
+        36.0,
+        22.0,
+        4.0
+      ],
+      "black_watertight": true,
+      "white_watertight": null,
+      "black_zmax": 4.0,
+      "white_zmin": null,
+      "volume_cm3": 2.1
+    },
+    "schluessel_6": {
+      "size_mm": [
+        36.0,
+        22.0,
+        4.0
+      ],
+      "black_watertight": true,
+      "white_watertight": null,
+      "black_zmax": 4.0,
+      "white_zmin": null,
+      "volume_cm3": 2.1
+    },
+    "schluessel_7": {
+      "size_mm": [
+        36.0,
+        22.0,
+        4.0
+      ],
+      "black_watertight": true,
+      "white_watertight": null,
+      "black_zmax": 4.0,
+      "white_zmin": null,
+      "volume_cm3": 2.1
+    },
+    "schluessel_8": {
+      "size_mm": [
+        36.0,
+        22.0,
+        4.0
+      ],
+      "black_watertight": true,
+      "white_watertight": null,
+      "black_zmax": 4.0,
+      "white_zmin": null,
+      "volume_cm3": 2.1
+    }
+  },
+  "plates": [
+    {
+      "plate": 1,
+      "items": [
+        {
+          "name": "kachel_oben_links",
+          "rot": 0,
+          "x": 236.0,
+          "y": -243.0
+        }
+      ]
+    },
+    {
+      "plate": 2,
+      "items": [
+        {
+          "name": "kachel_oben_rechts",
+          "rot": 90,
+          "x": 493.0,
+          "y": 30.0
+        }
+      ]
+    },
+    {
+      "plate": 3,
+      "items": [
+        {
+          "name": "kachel_unten_links",
+          "rot": 0,
+          "x": 218.0,
+          "y": 2.9
+        },
+        {
+          "name": "schluessel_1",
+          "rot": 0,
+          "x": 37.0,
+          "y": 14.0
+        },
+        {
+          "name": "schluessel_2",
+          "rot": 0,
+          "x": 79.0,
+          "y": 14.0
+        },
+        {
+          "name": "schluessel_3",
+          "rot": 0,
+          "x": 57.0,
+          "y": 36.0
+        },
+        {
+          "name": "schluessel_4",
+          "rot": 0,
+          "x": 35.0,
+          "y": 58.0
+        },
+        {
+          "name": "schluessel_5",
+          "rot": 0,
+          "x": 21.0,
+          "y": 80.0
+        },
+        {
+          "name": "schluessel_6",
+          "rot": 90,
+          "x": 234.0,
+          "y": 21.0
+        },
+        {
+          "name": "schluessel_7",
+          "rot": 90,
+          "x": 234.0,
+          "y": 63.0
+        }
+      ]
+    },
+    {
+      "plate": 4,
+      "items": [
+        {
+          "name": "kachel_unten_rechts",
+          "rot": 0,
+          "x": 18.0,
+          "y": 2.9
+        },
+        {
+          "name": "krone_mitte",
+          "rot": 75,
+          "x": 238.4,
+          "y": 41.6
+        },
+        {
+          "name": "schluessel_8",
+          "rot": 0,
+          "x": 123.0,
+          "y": 14.0
+        }
+      ]
+    }
+  ]
+}
